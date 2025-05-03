@@ -27,11 +27,12 @@ A real-time terminal bot that watches a file-based maze (`maze.txt`) and moves s
 Here's a basic sample of how your maze could look in `maze.txt`:
 
 ```txt
-+---+---+---+---+---+               
-|    |  |                           
------------------------------------ 
-------------------------------------
-###########x                        
-----------------                    
-:                                   
++---+---+---+---+---+
+|    | :  |     :      
+------   ------      
+:
+--------------  -----
+    :                 
+---  -------------   
+x                                         
 ```
